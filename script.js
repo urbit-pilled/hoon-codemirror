@@ -64,6 +64,7 @@ let tree;
         (aura) @constant.builtin
         
         (Gap) @comment
+        (lineComment) @comment
         
         (boolean) @constant.builtin
         
@@ -165,7 +166,6 @@ let tree;
             codeInput.value = sourceCode;
         }else{
             codeInput.value = `
-
 :: Example program from hoon school guide https://developers.urbit.org/guides/core/hoon-school/K-doors#exercise-display-cards 
 !:
 |=  [msg=tape steps=@ud]
